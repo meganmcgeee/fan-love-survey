@@ -1,0 +1,17 @@
+body{
+  font-family: Lato;
+  font-size: 20px;
+}
+h5{
+  font-size: 35px;
+  font-style: bold;
+  color: #3292cf;
+  padding-top: 2%;
+}
+.panel-body{
+  padding: 20px;
+}
+.form-control{
+  /*width: 50%;*/
+  border: 2px solid #ffc31b;
+}
