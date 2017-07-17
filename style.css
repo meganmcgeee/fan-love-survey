@@ -15,3 +15,8 @@ h5{
   /*width: 50%;*/
   border: 2px solid #ffc31b;
 }
+h4{
+   font-size: 4rem;
+  font-style: bold;
+  color: #3292cf;
+}
