@@ -619,10 +619,8 @@ var surveyJSON = {
         }
        ]
       },
-      {
+    {
        type: "radiogroup",
-       name: "CrunchyRoll",
-       title: "Crunchy Roll",
        choices: [
         {
          value: "1",
@@ -632,13 +630,12 @@ var surveyJSON = {
          value: "2",
          text: "No."
         }
-       ]
+       ],
+       name: "CrunchyRoll",
+       title: "Crunchyroll"
       },
       {
        type: "checkbox",
-       name: "As a Crunchy Roll user...",
-       visible: false,
-       visibleIf: "{CrunchyRoll} = 1",
        choices: [
         {
          value: "1",
@@ -652,7 +649,10 @@ var surveyJSON = {
          value: "3",
          text: "Arr, I'm a pirate."
         }
-       ]
+       ],
+       name: "As a Crunchyroll user...",
+       visible: false,
+       visibleIf: "{CrunchyRoll} = 1"
       },
       {
        type: "radiogroup",
@@ -707,7 +707,7 @@ var surveyJSON = {
     },
     {
      type: "radiogroup",
-     name: "What do call yourself?",
+     name: "Do you want to hear about the cool stuff Power Level is up to?",
      choices: [
       {
        value: "1",

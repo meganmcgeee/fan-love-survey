@@ -2,21 +2,50 @@ body{
   font-family: Lato;
   font-size: 20px;
 }
+
+h3{
+  font-size: 135px;
+  font-style: bold;
+  color: #3292cf;
+  text-align: center;
+}
+h4{
+   font-size: 4rem;
+  font-style: bold;
+  color: #3292cf;
+}
+
 h5{
   font-size: 35px;
   font-style: bold;
   color: #3292cf;
   padding-top: 2%;
 }
+
+button{
+  padding: 1em;
+}
+
+.container{
+  text-align: center;
+}
 .panel-body{
   padding: 20px;
 }
+
 .form-control{
   /*width: 50%;*/
   border: 2px solid #ffc31b;
 }
-h4{
-   font-size: 4rem;
-  font-style: bold;
+.explainer{
+  padding: 2em;
   color: #3292cf;
+  font-size: 35px
+}
+
+.explainer p{
+  font-size: 1em; 
+}
+.button img{
+  height: 300px;
 }

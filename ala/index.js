@@ -622,7 +622,7 @@ var surveyJSON = {
       {
        type: "radiogroup",
        name: "CrunchyRoll",
-       title: "Crunchy Roll",
+       title: "Crunchyroll",
        choices: [
         {
          value: "1",
@@ -636,7 +636,7 @@ var surveyJSON = {
       },
       {
        type: "checkbox",
-       name: "As a Crunchy Roll user...",
+       name: "As a Crunchyroll user...",
        visible: false,
        visibleIf: "{CrunchyRoll} = 1",
        choices: [
@@ -703,11 +703,11 @@ var surveyJSON = {
    elements: [
     {
      type: "text",
-     name: "What do you call yourself?"
+     name: "What do call yourself?"
     },
     {
      type: "radiogroup",
-     name: "What do call yourself?",
+     name: "Do you want to hear about the cool stuff Power Level is up to?",
      choices: [
       {
        value: "1",
